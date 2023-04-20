@@ -1,0 +1,49 @@
+.tabNavigation {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid black;
+}
+
+.tabContent {
+  width: 100%;
+  height: 50vh;
+  display: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.tabButton {
+  margin: 1px;
+  padding: 8px;
+  cursor: pointer;
+  min-width: 80px;
+  min-height: 40px;
+  outline: none;
+  border: 0.5px solid black;
+  background-color: white;
+}
+
+.activeButton {
+  background-color: #bfc2bd;
+}
+
+.tabButton:hover {
+  background-color: #f1f1f1;
+}
+
+.active {
+  display: block;
+  background-color: #f1f1f1;
+}
+
+.tabs {
+  border: 1px solid grey;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(50%, 50%);
+}
